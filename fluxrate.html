@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FluxRate</title>
-    <link rel="stylesheet" href="fluxrate.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FluxRate</title>
+  <link rel="stylesheet" href="fluxrate.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>FluxRate</h1>
-        <div class="value">
-            <p>Enter Value</p>
-            <input type="text" value="10">
-        </div>
-    </div>
-    <div class="currency-section">
-        <div class="from"></div>
-        <label for="from" class="from-label">
-            From
-        </label>
-        <select id="from" class="from-select">
-             <option value="USD">USD</option>
-             <option value="PKR">PKR</option>
-             <option value="EUR">EUR</option>
-        </select>
+  <div class="container">
+    <h1>💱 FluxRate</h1>
+
+    
+    <div class="value">
+      <label for="amount">Enter Value</label>
+      <input type="number" id="amount" placeholder="Enter amount" value="10" />
     </div>
 
-    <script src="fluxrate.js"></script>
+
+    <div class="currency-section">
+      <div class="currency-box">
+        <label for="from">From</label>
+        <select id="from">
+          <option value="USD">USD</option>
+          <option value="PKR">PKR</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+
+      <div class="currency-box">
+        <label for="to">To</label>
+        <select id="to">
+          <option value="PKR">PKR</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="msg">1 USD = 281 PKR</div>
+
+    
+    <button id="fetch">Fetch Rate</button>
+  </div>
+
+  <script src="fluxrate.js"></script>
 </body>
 </html>
