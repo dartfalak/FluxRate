@@ -100,7 +100,7 @@ h1 {
 
 
 button {
-  background: #00adb5;
+  background:rgba(197, 162, 83, 1);
   color: white;
   border: none;
   padding: 12px 20px;
@@ -112,5 +112,6 @@ button {
 }
 
 button:hover {
-  background: #06c3ce;
+  background:rgba(160, 130, 60, 1)
+;
 }
