@@ -7,7 +7,7 @@
 }
 
 body {
-  background: bisque;
+  background:#222E50;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ body {
 
 
 .container {
-  background:black;
+  background:#474954;
   backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 30px 40px;
