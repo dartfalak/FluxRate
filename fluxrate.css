@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: bisque;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ body {
 
 
 .container {
-  background: rgba(255, 255, 255, 0.08);
+  background:black;
   backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 30px 40px;
@@ -66,6 +66,8 @@ h1 {
 .currency-box {
   flex: 1;
   text-align: left;
+   
+
 }
 
 .currency-box label {
@@ -83,7 +85,7 @@ h1 {
   font-size: 15px;
   outline: none;
   background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: black;
 }
 
 
